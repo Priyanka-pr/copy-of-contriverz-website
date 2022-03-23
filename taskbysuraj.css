@@ -1,0 +1,260 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+hr {
+  margin: 0px;
+  padding: 0px;
+}
+main {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+header {
+  box-sizing: border-box;
+  width: 100%;
+  top: 0;
+  /* position: fixed; */
+  left: 0;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.info-part-1 p {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+.content h3 {
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  /* font-weight: 900; */
+}
+.info {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  background-image: linear-gradient(to right, #9960c1f3, #cd4836);
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding-left: 45px;
+  padding-right: 45px;
+  /* z-index: 11; */
+  /* padding: 5px; */
+}
+
+.info-part-2 {
+  list-style-type: none;
+  font-size: 13px;
+  /* flex-grow: 1; */
+  display: flex;
+  justify-content: 10px 10px;
+  box-sizing: border-box;
+}
+.info-item {
+  padding: 0px 15px 0px 15px;
+  box-sizing: border-box;
+}
+.info-part-2 li a {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+.menubar {
+  box-sizing: border-box;
+  list-style-type: none;
+  /* background-image: linear-gradient(to right, #9960c1f3, #cd4836); */
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.menubar li a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: double;
+  font-size: 16px;
+  color: #9a9a9a;
+  /* font-weight: 900; */
+  padding: 7px;
+}
+.menubar li a img {
+  height: 100%;
+}
+.btn {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  /* font-size: 15px; */
+  border: 2px white;
+  background-color: #9960c1;
+  color: white;
+  border-radius: 100px;
+  padding: 5px 20px 5px 20px;
+}
+.navbar {
+  box-sizing: border-box;
+  /* box-shadow: 0px 0px 0px 1px #9a9a9a; */
+  margin: 10px;
+  padding: 10px;
+  height: 45px;
+  padding: 2px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 45px;
+  /* padding-left: 45px; */
+}
+.logo img {
+  padding-left: 30px;
+  width: 200px;
+}
+.banner {
+  background-image: url("https://www.contriverz.com/wp-content/themes/patti-child/images/banner-bg.png");
+  padding-left: 45px;
+  /* padding-right: 45px; */
+}
+.banner h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  color: #555555;
+  letter-spacing: -2px;
+}
+.banner p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+}
+.bold-text {
+  /* font-weight: bolder; */
+}
+.banner-item {
+  /* min-width: 50%;
+    height: 500px; */
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+}
+.banner-cntnt hr {
+  position: absolute;
+  width: 200px;
+  height: 1px;
+  float: left;
+  background-color: #dd3005;
+  border: 1px solid #dd3005;
+}
+
+.banner-cntnt h3 {
+  margin: 0px;
+  color: #333;
+}
+.banner div {
+  flex-grow: 1;
+  /* border: 1px solid black; */
+  width: 50%;
+  height: 500px;
+}
+.banner-circle {
+  background-image: url("https://www.contriverz.com/wp-content/themes/patti-child/images/banner-circle.png");
+  /* position: absolute; */
+  /* width: 900px;
+    height: 900px; */
+  /* right: 0;
+    background-size: contain;
+    background-repeat: no-repeat; */
+  /* top: 70px; */
+}
+/* .banner-line{
+    display: inline-block;
+    width: 200px;
+    color: #9960c1;
+  } */
+.section2 {
+  display: flex;
+  color: #333;
+  /* padding-left: 30px; */
+  /* margin-left: 30px; */
+}
+.section2 div {
+  border: 1px solid black;
+  flex-grow: 1;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.section2 h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+}
+.section2 p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+.card-items {
+  display: flex;
+  border: 1px solid black;
+}
+.card-1 {
+  background: linear-gradient(
+    to bottom,
+    rgba(210, 69, 0, 1) 0,
+    rgba(210, 69, 0, 1) 27%,
+    rgba(232, 173, 49, 1) 100%
+  );
+}
+.btn-2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  background-color: #9370bd;
+  border: 1px solid white;
+  color: white;
+  letter-spacing: 1.2px;
+  border-radius: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.btn-2 span {
+  font-size: 25px;
+}
+.section3 {
+  display: flex;
+  /* padding-left: 45px; */
+}
+.section3 div {
+  border: 1px solid black;
+  flex-grow: 1;
+  /* height: 100px; */
+}
+.row-1 {
+  display: flex;
+}
+.col-1 {
+  background-color: #9960c1;
+  color: white;
+}
+.col-1 b {
+  position: absolute;
+  float: right;
+}
+.col-2 {
+  background-image: url("https://www.contriverz.com/wp-content/themes/patti-child/images/about1.png");
+}
+.row-2 {
+  background-image: url("https://www.contriverz.com/wp-content/themes/patti-child/images/about2.png");
+}
+
+.sec-3-content {
+  width: 50%;
+}
+.section4,
+.sec4-col-2 {
+  display: flex;
+}
