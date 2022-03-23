@@ -17,7 +17,6 @@ header {
   box-sizing: border-box;
   width: 100%;
   top: 0;
-  /* position: fixed; */
   left: 0;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
@@ -30,7 +29,6 @@ header {
 .content h3 {
   font-size: 25px;
   font-family: "Poppins", sans-serif;
-  /* font-weight: 900; */
 }
 .info {
   font-family: "Poppins", sans-serif;
@@ -44,14 +42,11 @@ header {
   justify-content: space-between;
   padding-left: 45px;
   padding-right: 45px;
-  /* z-index: 11; */
-  /* padding: 5px; */
 }
 
 .info-part-2 {
   list-style-type: none;
   font-size: 13px;
-  /* flex-grow: 1; */
   display: flex;
   justify-content: 10px 10px;
   box-sizing: border-box;
@@ -68,7 +63,6 @@ header {
 .menubar {
   box-sizing: border-box;
   list-style-type: none;
-  /* background-image: linear-gradient(to right, #9960c1f3, #cd4836); */
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -78,7 +72,6 @@ header {
   text-decoration: double;
   font-size: 16px;
   color: #9a9a9a;
-  /* font-weight: 900; */
   padding: 7px;
 }
 .menubar li a img {
@@ -87,7 +80,6 @@ header {
 .btn {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  /* font-size: 15px; */
   border: 2px white;
   background-color: #9960c1;
   color: white;
@@ -96,7 +88,6 @@ header {
 }
 .navbar {
   box-sizing: border-box;
-  /* box-shadow: 0px 0px 0px 1px #9a9a9a; */
   margin: 10px;
   padding: 10px;
   height: 45px;
@@ -104,7 +95,6 @@ header {
   display: flex;
   justify-content: space-between;
   padding-right: 45px;
-  /* padding-left: 45px; */
 }
 .logo img {
   padding-left: 30px;
@@ -113,7 +103,6 @@ header {
 .banner {
   background-image: url("https://www.contriverz.com/wp-content/themes/patti-child/images/banner-bg.png");
   padding-left: 45px;
-  /* padding-right: 45px; */
 }
 .banner h3 {
   font-family: "Poppins", sans-serif;
@@ -127,13 +116,6 @@ header {
   font-size: 18px;
   font-weight: 400;
   color: black;
-}
-.bold-text {
-  /* font-weight: bolder; */
-}
-.banner-item {
-  /* min-width: 50%;
-    height: 500px; */
 }
 .banner {
   display: flex;
@@ -154,30 +136,14 @@ header {
 }
 .banner div {
   flex-grow: 1;
-  /* border: 1px solid black; */
   width: 50%;
   height: 500px;
 }
 .banner-circle {
   background-image: url("https://www.contriverz.com/wp-content/themes/patti-child/images/banner-circle.png");
-  /* position: absolute; */
-  /* width: 900px;
-    height: 900px; */
-  /* right: 0;
-    background-size: contain;
-    background-repeat: no-repeat; */
-  /* top: 70px; */
 }
-/* .banner-line{
-    display: inline-block;
-    width: 200px;
-    color: #9960c1;
-  } */
 .section2 {
   display: flex;
-  color: #333;
-  /* padding-left: 30px; */
-  /* margin-left: 30px; */
 }
 .section2 div {
   border: 1px solid black;
@@ -226,12 +192,10 @@ header {
 }
 .section3 {
   display: flex;
-  /* padding-left: 45px; */
 }
 .section3 div {
   border: 1px solid black;
   flex-grow: 1;
-  /* height: 100px; */
 }
 .row-1 {
   display: flex;
@@ -250,7 +214,6 @@ header {
 .row-2 {
   background-image: url("https://www.contriverz.com/wp-content/themes/patti-child/images/about2.png");
 }
-
 .sec-3-content {
   width: 50%;
 }
