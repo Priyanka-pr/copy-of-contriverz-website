@@ -259,6 +259,8 @@ nav {
 }
 .section3 {
   display: flex;
+  padding-top: 75px;
+  padding-bottom: 75px;
   padding-left: 20px;
   margin-left: 25px;
   background-image: url("https://www.contriverz.com/wp-content/themes/patti-child/images/pattern.png");
