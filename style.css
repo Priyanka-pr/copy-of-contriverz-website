@@ -40,6 +40,7 @@ header {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
+  align-items: baseline;
   padding-left: 45px;
   padding-right: 45px;
 }
@@ -60,19 +61,26 @@ header {
   color: white;
   text-decoration: none;
 }
+nav {
+  box-sizing: border-box;
+  box-shadow: 1px 1px 2px rgba(51, 51, 51, 0.199);
+}
 .menubar {
+  height: 100%;
   box-sizing: border-box;
   list-style-type: none;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
+  align-items: baseline;
+  /* top: 10px; */
 }
 .menubar li a {
   font-family: "Poppins", sans-serif;
   text-decoration: double;
   font-size: 16px;
   color: #9a9a9a;
-  padding: 7px;
+  padding: 0px 7px 0px 7px;
 }
 .menubar li a img {
   height: 100%;
@@ -88,13 +96,11 @@ header {
 }
 .navbar {
   box-sizing: border-box;
-  margin: 10px;
-  padding: 10px;
-  height: 45px;
-  padding: 2px;
+  margin: 10px 0px 10px 0px;
+  height: 50px;
   display: flex;
   justify-content: space-between;
-  padding-right: 45px;
+  align-items: baseline;
 }
 .logo img {
   padding-left: 30px;
@@ -106,21 +112,24 @@ header {
 }
 
 .banner h3 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 60px;
   font-weight: 900;
   color: #555555;
-  letter-spacing: -2px;
 }
 .banner p {
   font-family: "Poppins", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   color: black;
 }
 .banner {
   display: flex;
   justify-content: space-between;
+}
+.banner-cntnt {
+  padding-top: 40px;
+  margin-top: 50px;
 }
 .banner-cntnt hr {
   position: absolute;
@@ -130,15 +139,22 @@ header {
   background-color: #dd3005;
   border: 1px solid #dd3005;
 }
-
+.banner-cntnt p {
+  padding: 30px 35px 0px 0px;
+  margin: 0px 90px 20px 0px;
+}
+.normal-para b {
+  margin: 10px 0px 0px 0px;
+}
 .banner-cntnt h3 {
   margin: 0px;
   color: #333;
 }
+
 .banner div {
   flex-grow: 1;
   width: 50%;
-  height: 500px;
+  height: 835px;
 }
 .banner-circle {
   background-image: url("https://www.contriverz.com/wp-content/themes/patti-child/images/banner-circle.png");
@@ -147,6 +163,8 @@ header {
   display: flex;
   padding-left: 20px;
   margin-left: 25px;
+  /* position: absolute;
+  top: 750px; */
 }
 .section2 div {
   border: 1px solid black;
@@ -165,6 +183,9 @@ header {
   font-size: 16px;
   font-weight: 300;
 }
+.card div {
+  background-color: #d6e2f8;
+}
 .card-items {
   display: flex;
   border: 1px solid black;
@@ -178,6 +199,7 @@ header {
   );
 }
 .btn-2 {
+  margin: 20px 0px 0px 0px;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   background-color: #9370bd;
