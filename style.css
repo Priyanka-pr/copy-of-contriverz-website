@@ -119,7 +119,7 @@ nav {
 .banner {
   background-image: url("https://www.contriverz.com/wp-content/themes/patti-child/images/banner-bg.png");
   padding-left: 45px;
-  background-repeat: repeat-x;
+  background-repeat: no-repeat;
 }
 
 .banner h3 {
@@ -169,6 +169,7 @@ nav {
 .banner-circle {
   width: 700px;
   background-image: url("https://www.contriverz.com/wp-content/themes/patti-child/images/banner-circle.png");
+  background-repeat: no-repeat;
 }
 .section2 {
   display: flex;
