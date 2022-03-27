@@ -357,3 +357,24 @@ nav {
   padding: 15px;
   margin: 5px;
 }
+.section4 {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+.section4 div {
+  border: 1px solid black;
+}
+.section4 ul li {
+  border: 1px solid black;
+}
+.section-4-cardParent {
+  justify-content: space-between;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  flex-grow: 2;
+}
+.sec4-col-1 {
+}
