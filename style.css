@@ -175,7 +175,7 @@ nav {
   display: flex;
   padding-left: 20px;
   margin-left: 25px;
-  margin-top: -150px;
+  margin-top: -200px;
   /* position: absolute;
   top: 750px; */
 }
@@ -285,6 +285,8 @@ nav {
   font-size: 25px;
 }
 .section3 {
+  border: 1px black;
+  border-style: none;
   display: flex;
   padding-top: 75px;
   padding-bottom: 75px;
@@ -294,7 +296,7 @@ nav {
 }
 
 .section3 div {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   flex-grow: 1;
 }
 .row-1 {
@@ -319,11 +321,23 @@ nav {
 }
 .sec-3-content {
   width: 50%;
+  /* padding: 30px; */
 }
 .sec-3-content h3 {
   font-family: "Poppins", sans-serif;
-  font-size: 40px;
-  font-weight: 300;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0px 40px 0px 40px;
+  margin-bottom: 30px;
+}
+.sec-3-content p {
+  margin-bottom: 20px;
+  padding: 0px 40px 0px 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+.sec-3-content button {
+  margin-top: 45px;
 }
 .section4,
 .sec4-col-2 {
