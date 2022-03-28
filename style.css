@@ -27,6 +27,8 @@ header {
   left: 0;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
+  position: fixed;
+  background-color: white;
 }
 .info-part-1 p {
   font-family: "Poppins", sans-serif;
@@ -120,6 +122,7 @@ nav {
   background-image: url("https://www.contriverz.com/wp-content/themes/patti-child/images/banner-bg.png");
   padding-left: 45px;
   background-repeat: no-repeat;
+  margin-top: 110px;
 }
 
 .banner h3 {
@@ -307,10 +310,7 @@ nav {
   background-color: #9960c1;
   color: white;
 }
-.col-1 b {
-  /* position: absolute;
-  float: right; */
-}
+
 .col-2 {
   height: 223px;
   background-image: url("https://www.contriverz.com/wp-content/themes/patti-child/images/about1.png");
@@ -344,6 +344,7 @@ nav {
   display: flex;
 }
 .row-1 div {
+  flex-grow: 1;
   margin: 5px;
   border: 1px solid white;
   border-radius: 10px;
@@ -360,13 +361,23 @@ nav {
 .section4 {
   display: flex;
   flex-grow: 1;
-  justify-content: space-between;
+  column-gap: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
 }
 .section4 div {
-  border: 1px solid black;
+  /* border: 1px solid black; */
+}
+.sec4-col-1,
+.section-4-card .sec4-col-2 {
+  height: 300px;
+}
+.section-4-card .sec4-col-2 {
+  width: 50%;
 }
 .section4 ul li {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .section-4-cardParent {
   justify-content: space-between;
@@ -374,7 +385,74 @@ nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  flex-grow: 2;
+  flex-grow: 3;
+  column-gap: 30px;
 }
 .sec4-col-1 {
+  flex-grow: 1;
+}
+.sec4-col-1 div {
+  background-color: #9960c1;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.sec4-col-1 div {
+  padding: 60px 60px 90px 60px;
+  /* height: 70%; */
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  font-weight: bolder;
+  text-align: right;
+}
+.sec4-col-1 h3 .sec4-col-2 {
+  flex-grow: 1;
+}
+.sec4-col-2 ul li {
+  flex-grow: 1;
+  padding: 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  letter-spacing: -0.05;
+  border: 1px solid rgba(121, 121, 121, 0.205);
+}
+.sec4-col-2 {
+  margin-top: 45px;
+}
+.sec4-col-content button {
+  margin-top: 30px;
+}
+.sec4-col-content p {
+  margin-top: 15px;
+}
+.section-4-card:hover {
+  color: white;
+  background: linear-gradient(
+    to bottom,
+    rgba(210, 69, 0, 1) 0,
+    rgba(210, 69, 0, 1) 27%,
+    rgba(232, 173, 49, 1) 100%
+  );
+}
+.card-btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  border: 1px solid rgba(100, 100, 100, 0.39);
+  border-radius: 150px;
+  background-color: white;
+  padding: 0px 0px 0px 10px;
+  width: 100%;
+  text-align: left;
+}
+.card-btn span {
+  color: white;
+  margin-left: 150px;
+  display: inline-block;
+  background-color: #ed6818;
+  border: 1px solid #ed6818;
+  border-radius: 100px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  width: 35px;
 }
