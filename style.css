@@ -396,6 +396,7 @@ nav {
   color: white;
   border: 1px solid white;
   border-radius: 10px;
+  margin-bottom: 58px;
 }
 .sec4-col-1 div {
   padding: 60px 60px 90px 60px;
@@ -405,6 +406,24 @@ nav {
   font-weight: bolder;
   text-align: right;
 }
+.sec4-col-1 span {
+  background-color: white;
+  color: #9960c1;
+  border: 1px solid white;
+  border-radius: 100px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+  box-sizing: border-box;
+  margin: 5px;
+  box-shadow: 8px 8px 8px rgba(99, 98, 98, 0.151);
+  padding: 10px 13px 5px 15px;
+}
+/* .arrow {
+  display: inline-block;
+  padding: 0;
+} */
 .sec4-col-1 h3 .sec4-col-2 {
   flex-grow: 1;
 }
@@ -436,26 +455,54 @@ nav {
   );
 }
 .card-btn {
+  color: black;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   border: 1px solid rgba(100, 100, 100, 0);
   border-radius: 150px;
   background-color: white;
-  padding: 0px 0px 0px 10px;
+  /* padding: 0px 0px 0px 10px; */
   width: 100%;
+  /* display: flex;
+  justify-content: space-between; */
   text-align: left;
   box-sizing: border-box;
   box-shadow: 8px 8px 10px rgba(99, 98, 98, 0.082);
 }
 .card-btn span {
-  color: white;
-  margin-left: 150px;
-  display: inline-block;
+  /* color: white; */
+  /* margin-left: 150px; */
+  /* display: inline-block;
   background-color: #ed6818;
   border: 1px solid #ed6818;
   border-radius: 100px;
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 25px;
-  width: 30px;
+  width: 30px; */
+}
+.section5 {
+  margin-top: 50px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  background-color: #2a1738;
+  color: white;
+  font-family: "Poppins", sans-serif;
+
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+.section5 div {
+  border: 1px solid rgb(255, 255, 255);
+  width: 50%;
+}
+.sec5-col-1 {
+  text-align: right;
+  margin-right: 5px;
+  width: 50%;
+}
+.sec5-col-2 {
+  text-align: left;
+  margin-left: 5px;
 }
