@@ -566,8 +566,38 @@ nav {
   font-weight: 300;
 }
 .section7{
+  padding-top: 50px;
+  padding-bottom: 50px;
   display: flex;
   justify-content: center;
   flex-grow: 1;
   background-image: url("https://www.contriverz.com/wp-content/themes/patti-child/images/form-pattern.jpg");
+}
+.section7 div{
+  width: 50%;
+}
+.sec7-content {
+  padding-left: 45px;
+  padding-right: 50px;
+}
+.sec7-content h3{
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+}
+.sec7-content p{
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+#name{
+  width: 100%;
+}
+.sec7-form input{
+  border: 1px solid #e8bfa7;
+  border-radius: 100px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500px;
+  padding: 10px;
+  margin-bottom: 10px;
 }
