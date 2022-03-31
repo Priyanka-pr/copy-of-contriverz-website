@@ -488,21 +488,84 @@ nav {
   background-color: #2a1738;
   color: white;
   font-family: "Poppins", sans-serif;
-
+  /* column-gap: 20px; */
   display: flex;
   justify-content: center;
   flex-grow: 1;
 }
 .section5 div {
-  border: 1px solid rgb(255, 255, 255);
+  /* border: 1px solid rgb(255, 255, 255); */
   width: 50%;
+}
+.sec4-col-1 p {
+  padding-right: 60px;
+  padding-left: 60px;
 }
 .sec5-col-1 {
   text-align: right;
-  margin-right: 5px;
+  /* margin-right: 5px; */
   width: 50%;
+  padding-left: 260px;
+  padding-right: 15px;
+  border: 0px 1px 0px 0px dashed white;
+}
+.sec5-col-1 h6{
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  color: #ed6818;
+  margin-top: 30px;
+}
+.sec5-col-1 p{
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+.stars span{
+  font-size: 30px;
 }
 .sec5-col-2 {
   text-align: left;
-  margin-left: 5px;
+  /* margin-left: 5px; */
+  padding-right: 260px;
+  padding-left: 15px;
+  border: 0px 0px 0px 1px dashed white;
+}
+.sec5-col-2 h6{
+  font-family: "Roboto", sans-serif;
+  /* font-weight: bolder; */
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+.star-1 {
+  display: inline-block;
+  color: #ffc700;
+}
+.vertical-line{
+  /* border-style: none dashed none none;
+  margin: 10px;
+  padding: 10px;
+  right: 66%;
+  position: absolute; */
+  /* height: 200px;
+  border-right: 1px solid #000900;
+  position: absolute;
+  right: 50%; */
+}
+.section6{
+  text-align: center;
+}
+.section6 h3{
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+}
+.section6 p{
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+.section7{
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  background-image: url("https://www.contriverz.com/wp-content/themes/patti-child/images/form-pattern.jpg");
 }
