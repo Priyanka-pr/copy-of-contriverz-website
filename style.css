@@ -124,7 +124,23 @@ nav {
   background-repeat: no-repeat;
   margin-top: 110px;
 }
-
+.group-rt-btn{
+  position: fixed; 
+  top: 150px; 
+  left: 1300px;
+}
+.rt-btn{
+  background-color: #cd4836;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  color: white;
+  padding: 15px 8px 15px 8px;
+  font-family: poppins;
+  margin: 5px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
 .banner h3 {
   font-family: "Roboto", sans-serif;
   font-size: 60px;
